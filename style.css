@@ -10,7 +10,8 @@ img{
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	border-collapse: collapse;
 	width: 100%;
-	background-color: gainsboro; 
+	background-color: white;
+	color: black; 
   }
   
 #results td, #results th {
@@ -20,13 +21,13 @@ img{
   
 #results tr:nth-child(even){background-color: #f2f2f2;}
   
-#results tr:hover {background-color: #ddd;}
+#results tr:hover {background-color: #343a40;}
   
 #results th {
 	padding-top: 12px;
 	padding-bottom: 12px;
 	text-align: left;
-	background-color: #f7941d;
+	background-color: #343a40;
 	color: white;
   }
 
@@ -80,9 +81,9 @@ img{
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	border: 1px solid #C2C2C2;
-	box-shadow: 1px 1px 4px #EBEBEB;
-	-moz-box-shadow: 1px 1px 4px #EBEBEB;
-	-webkit-box-shadow: 1px 1px 4px #EBEBEB;
+	box-shadow: 1px 1px 4px #343a40;
+	-moz-box-shadow: 1px 1px 4px #343a40;
+	-webkit-box-shadow: 1px 1px 4px #343a40;
 	border-radius: 3px;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
@@ -103,17 +104,17 @@ img{
 .rev-style input[type=button]{
 	border: none;
 	padding: 8px 15px 8px 15px;
-	background: #f7941d;
+	background: #343a40;
 	color: #fff;
-	box-shadow: 1px 1px 4px #DADADA;
-	-moz-box-shadow: 1px 1px 4px #DADADA;
-	-webkit-box-shadow: 1px 1px 4px #DADADA;
+	box-shadow: 1px 1px 4px #17a2b8;
+	-moz-box-shadow: 1px 1px 4px #17a2b8;
+	-webkit-box-shadow: 1px 1px 4px #17a2b8;
 	border-radius: 3px;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 }
 .rev-style input[type=submit]:hover,
 .rev-style input[type=button]:hover{
-	background: #EA7B00;
+	background: #111213;
 	color: #fff;
 }
