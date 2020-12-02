@@ -14,14 +14,16 @@ both three and five print "FizzBuzz".
 ## Table of contents
 
 - [Description](#Description)
-- [Licence](#Licence)
+- [Code](#Code)
 - [Contributors](#Contributors)
 - [Test](#Test)
 - [Repository Link](#Repository)
 - [Live Link](#Live)
 - [GitHub Info](#GitHub)
 
-## Licence
+## Code
+
+Inside the fizzbuzz.js you will find 4 different ways this code was writtten. On line 73 change FizzBuzzA with FizzBuzzB, or FizzBuzzC to change the differnet call function. FizzBuzzD has its own call function inside line 78 buzzItTemplate line 91.
 
 ## Contributors
 
