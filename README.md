@@ -7,9 +7,12 @@ multiples of three print "Fizz" instead of the number and for the
 multiples of five print "Buzz". For numbers which are multiples of
 both three and five print "FizzBuzz".
 
-### Example imgage
+### Home page
 
 ![home page](./assets/images/home.png)
+
+### Meta Strat page
+
 ![Meta Strat page](./assets/images/Meta-Strat.png)
 
 ## Table of contents
