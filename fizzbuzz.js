@@ -70,7 +70,7 @@ function buzzIt() {
   let output = "";
   let val1 = document.getElementById("Fizzvalue").value;
   let val2 = document.getElementById("Buzzvalue").value;
-  output = FizzBuzzC(val1, val2);
+  output = FizzBuzzA(val1, val2);
   document.getElementById("results").innerHTML = output;
 }
 
