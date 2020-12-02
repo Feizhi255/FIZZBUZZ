@@ -23,7 +23,45 @@ both three and five print "FizzBuzz".
 
 ## Code
 
-Inside the fizzbuzz.js you will find 4 different ways this code was writtten. On line 73 change FizzBuzzA with FizzBuzzB, or FizzBuzzC to change the differnet call function. FizzBuzzD has its own call function inside line 78 buzzItTemplate line 91.
+Inside the fizzbuzz.js you will find 4 different ways this code was writtten. On line 73 change FizzBuzzA with FizzBuzzB, or FizzBuzzC to change the differnet call function. 
+
+    // Call and use our FizzBuzz
+    function buzzIt() {
+     let output = "";
+     let val1 = document.getElementById("Fizzvalue").value;
+     let val2 = document.getElementById("Buzzvalue").value;
+     output = **FizzBuzzA**(val1, val2);
+     document.getElementById("results").innerHTML = output;
+    }
+
+FizzBuzzD has its own call function inside line 78 buzzItTemplate line 91.
+
+    // Call and use our template
+    function buzzItTemplate() {
+     let output = [];
+     let headTemplate = document.getElementById("template-header");
+     let rowTemplate = document.getElementById("template-row-items");
+
+     let templateHTML = rowTemplate.innerHTML;
+     let resultsHTML = headTemplate.innerHTML;
+
+     // Get the values the user entered
+     let val1 = document.getElementById("Fizzvalue").value;
+     let val2 = document.getElementById("Buzzvalue").value;
+
+     // Call out fizzbuzz function
+     output = **FizzBuzzD**(val1, val2);
+      for (i = 1; i < output.length; i += 5) {
+       resultsHTML += templateHTML
+        .replace("{{val1}}", output[i])
+        .replace("{{val2}}", output[i + 1])
+        .replace("{{val3}}", output[i + 2])
+        .replace("{{val4}}", output[i + 3])
+        .replace("{{val5}}", output[i + 4]);
+     }
+     document.getElementById("results").innerHTML = resultsHTML;
+    }
+
 
 ## Contributors
 
